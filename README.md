@@ -1,4 +1,4 @@
-[text](../argocd/resources)# policy-as-code
+# policy-as-code
 
 Kubernetes Policy as Code PoCs
 
