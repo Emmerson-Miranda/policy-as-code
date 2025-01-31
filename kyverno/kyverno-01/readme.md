@@ -2,6 +2,8 @@
 
 Based on https://kyverno.io/docs/introduction/quick-start/
 
+Pre requisites: [Install Kyverno](../readme.md)
+
 ## Install validation policy
 
 ```bash
