@@ -22,5 +22,7 @@ kind get clusters
 
 | Example | Description                                                                             |
 |-----|---------------------------------------------------------------------------------------------|
-| [01](./kyverno/kyverno-01/readme.md) | Simple Kyverno examples to validate and mutate pods.       |
+| [01](./kyverno/kyverno-01/readme.md) | Simple Kyverno examples to validate and mutate labels in pods.     |
+| [02](./kyverno/kyverno-02/readme.md) | Replicate secrets from default namespace to each new namespace.    |
+| [03](./kyverno/kyverno-03/readme.md) | Add SELinux configuration to Pods created by a DaemonSet           |
 

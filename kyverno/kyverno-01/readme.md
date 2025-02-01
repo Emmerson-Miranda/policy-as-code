@@ -1,5 +1,7 @@
 # kyverno 01
 
+Basic example of how to validate a Pod contain an specific label and another example to add a custom label to new Pods.
+
 Based on https://kyverno.io/docs/introduction/quick-start/
 
 Pre requisites: [Install Kyverno](../readme.md)
