@@ -4,7 +4,7 @@ Kubernetes Policy as Code PoCs
 
 ## Create cluster
 
-Uses KinD terraform´s [provider](./terraform/provider.tf) to create a local cluster.
+Uses KinD terraform´s [provider](./terraform/provider.tf) to create a local cluster. Also it uses Helm [provider](./terraform/provider.tf) to deploy Kyverno.
 
 ```bash
 terraform -chdir=terraform init

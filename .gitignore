@@ -1,3 +1,4 @@
 **/.terraform*
 **/terraform.tfstate
 **/policy-as-code-cluster-config
+terraform/terraform.tfstate.backup

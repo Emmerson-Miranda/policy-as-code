@@ -1,6 +1,6 @@
 # kyverno 
 
-Installing kyverno
+Kyverno, is [already installed using terraform](./../terraform/main.tf), alternatively you can run below script.
 
 ```bash
 helm repo add kyverno https://kyverno.github.io/kyverno/

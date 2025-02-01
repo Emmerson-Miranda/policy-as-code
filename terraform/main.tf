@@ -27,3 +27,12 @@ resource "kind_cluster" "default" {
   }
 
 }
+
+resource "helm_release" "kyverno" {
+  name       = "kyverno"
+  repository = "https://kyverno.github.io/kyverno/"
+  chart      = "kyverno"
+  create_namespace = true
+  namespace = "kyverno"
+  depends_on = [ kind_cluster.default ]
+}
