@@ -4,6 +4,8 @@ Kubernetes Policy as Code PoCs
 
 ## Create cluster
 
+Uses KinD terraform´s [provider](./terraform/provider.tf) to create a local cluster.
+
 ```bash
 terraform -chdir=terraform init
 terraform -chdir=terraform plan
