@@ -1,4 +1,4 @@
-# kyverno 01
+# kyverno 03
 
 Basic example of how to mutate a pod resource to add SELinux policy.
 
@@ -10,7 +10,7 @@ Pre requisites: [Install Kyverno](../readme.md)
 ## 1 - Create Policy
 
 ```bash
-kubectl apply -f policy-set-image-pull-policy.yaml
+kubectl apply -f policy-set-seLinuxOptions.yaml
 ```
 
 ## 2 - Deploy DaemonSet

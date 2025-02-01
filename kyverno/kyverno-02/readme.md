@@ -1,4 +1,4 @@
-# kyverno 01
+# kyverno 02
 
 Basic example of how to Generate resources.
 This create a secret in default namespace and replicate it in all new namespaces created.

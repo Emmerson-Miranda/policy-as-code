@@ -1,10 +1,10 @@
 apiVersion: kyverno.io/v1
 kind: ClusterPolicy
 metadata:
-  name: set-image-pull-policy
+  name: set-selinuxoptions
 spec:
   rules:
-    - name: set-image-pull-policy
+    - name: set-selinuxoptions
       match:
         any:
         - resources:

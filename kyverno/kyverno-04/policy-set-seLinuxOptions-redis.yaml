@@ -1,0 +1,26 @@
+apiVersion: kyverno.io/v1
+kind: Policy
+metadata:
+  name: set-selinuxoptions-redis
+spec:
+  rules:
+    - name: set-selinuxoptions-redis
+      match:
+        any:
+        - resources:
+            kinds:
+            - Pod
+            selector:
+              matchLabels:
+                software: "redis"
+      mutate:
+        patchStrategicMerge:
+          spec:
+            containers:
+              # match images which end with :latest
+              - (image): "*:latest"
+                # set the imagePullPolicy to "IfNotPresent"
+                #imagePullPolicy: "IfNotPresent"
+                securityContext:
+                  seLinuxOptions:
+                    level: "s0:c123,c456"
