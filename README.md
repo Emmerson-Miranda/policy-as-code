@@ -28,3 +28,4 @@ kind get clusters
 | [02](./kyverno/kyverno-02/readme.md) | Replicate secrets from default namespace to each new namespace.    |
 | [03](./kyverno/kyverno-03/readme.md) | Add SELinux configuration to Pods created by a DaemonSet           |
 | [04](./kyverno/kyverno-04/readme.md) | Uses `Policy` instead `ClusterPolicy` as well as filter by labels. |
+| [05](./kyverno/kyverno-05/readme.md) | Blocks updates and deletions for `Services`.                       |
